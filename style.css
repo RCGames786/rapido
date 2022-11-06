@@ -28,7 +28,149 @@
     
     #Navbar {
         background-color: rgb(0, 89, 255);
+        position: fixed;
+        width: 100%;
     }
+
+    #art-area {
+        margin-top: 60px;
+        padding: 15px 10px;
+    }
+
+
+
+    #button-design button {
+        background-color: rgb(252, 5, 50);
+        color: white;
+        border: none;
+        font-size: 14px;
+        border-radius: 10px 20px 10px 0px;
+        padding: 5px 15px;
+
+        
+    }
+
+    #rapido-img img {
+        padding-bottom: 20px;
+        width: 80%;
+        height: 230px;
+        border-radius: 10px 20px 10px 0px;
+
+    }
+    
+    #article-area img {
+        width: 80%; 
+        height: 230px;   
+    }
+
+    #article-area h2 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+
+    #article-area p {
+    font-size: 19px;
+    padding: 20px 0px;
+    }
+
+    #button-design button {
+        margin-bottom: 20px;
+    }
+
+    #four-icon {
+        text-align: center;
+        background-color: rgb(254, 234, 209);
+        padding: 20px 8%;
+        margin-top: 20px;
+        margin-bottom: 20px;        
+        border-radius: 100px 50px;
+    }
+
+    #i-con {
+        background-color: white;
+        width: 40%;
+        overflow: hidden;
+        height: auto;
+        border-radius: 50%;
+        margin: 6px 2%;
+    }
+
+    #i-con h3 {
+        font-size: 13px;
+    }
+
+    #i-con img {
+        padding: 10px 0px 10px;
+        width: 50px;
+        height: auto;
+    }
+
+
+    #three-are img {
+        width: 80%;
+        height: auto;
+    }
+
+    #three-are h4 {
+        margin: 10px 2px;
+    }
+
+    #art-area img {
+        width: 100%;
+        height: 350px;
+        border-radius: 40px 15px 50px 10px;
+    }
+
+
+    #foot {
+        padding: 20px 10%;
+        width: 100%;
+        background-color: rgba(1, 18, 30, 0.839);
+    }
+
+    #foot div {
+        padding: 15px 0px;
+    }
+
+    #foot h4 {
+        color: white;
+        text-align: center;
+        
+    }
+
+    #foot a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        display: block;
+        margin: 17px 2px;
+        font-size: 17px;
+    }
+
+    #foot h3 {
+        text-align: center;
+        color: white;
+    }
+
+    #foot p {
+        text-align: justify;
+        color: white;
+    }
+
+    #copyright {
+        text-align: center;
+        padding: 7px 10%;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        
+
+    }
+
+    #copyright i {
+        font-size: 23px;
+        margin: 2px 10px 0px;
+    }
+ 
 
 
 
@@ -72,9 +214,15 @@
         border-radius: 10px;
     }
 
-    #art-area {
+    #artcle-area {
         margin-top: 35px;
         padding: 40px 10px;
+    }
+
+
+    #article-area h2 {
+        font-size: 22px;
+        margin-top: 25px;
     }
 
     #button-design button {
@@ -92,7 +240,18 @@
         text-align: center;
         background-color: rgb(254, 234, 209);
         padding: 50px 20px;
+        margin-top: 20px;
         border-radius: 100px 50px;
+    }
+
+    #three-are h3 {
+        font-size: 18px;
+    }
+
+    #para {
+        padding: 10px;
+        font-size: 15px;
+
     }
 
     #i-con {
@@ -114,37 +273,51 @@
         height: auto;
     }
 
+    #rapido-img {
+        padding: 0px 20px;
+        margin-top: 70px;
+        
+
+    }
+
+    #rapido-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 50px 10px 50px 10px;
+    }
+
     .anubhav {
-        width: 500px;
-        height: 300px;
+        width: 100%;
+        height: auto;
         border-radius: 100px;
         border: 2px solid rgb(0, 0, 0);
 
     }
 
     #three-are {
-        margin: 30px 5%;
+        margin: 30px 2%;
         padding: 40px 0px;
         text-align: center;
     }
 
     #three-are p {
-        text-align: justify;
-        padding: 10px 5px;
+        text-align: center;
+        padding: 10px 10%;
+        font-size: 18px;
         
     }
 
     #three-are img {
-        width:100%;
+        width:50%;
         height: 250px;
         border-radius: 100px;
-        margin: 2px 30px;
+        padding: 2px 30px;
     }
 
     #foot {
         padding: 20px 10%;
         width: 100%;
-        background-color: rgb(3, 144, 245);
+        background-color: rgba(1, 18, 30, 0.839);
     }
 
     #foot a {
@@ -174,7 +347,19 @@
 
     }
 
+    #copyright i {
+        font-size: 23px;
+        margin: 2px 10px 0px;
+    }
+ 
 
 
 }
+
+
+
+
+
+ 
+
  /* laptop and tablet screen code end here  */
