@@ -179,7 +179,7 @@
 /* mobile and tablet are code end  */
 
  /* laptop and tablet screen code start here  */
-@media screen and (min-width: 769px) and (max-width: 1600px) {
+@media screen and (min-width: 769px) and (max-width: 1600px), (min-width:1600px) {
     * {
         margin: 0px;
         padding: 0px;
